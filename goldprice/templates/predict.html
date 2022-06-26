@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict!</title>
+</head>
+<body>
+    <h1>How much?</h1>
+    <form action="{{url_for('predict.printresult')}}" method="POST">
+        <p>코스피</p><input type='text' placeholder="KOSPI" required name="kospi">
+        <p>코스닥</p><input placeholder="KODAQ" required name="kosdaq">
+        <p>S&P500</p><input placeholder="S&P500" required name="sp500">
+        <p>NASDAQ</p><input placeholder="NASDAQ" required name="nasdaq">
+        <p>원/달러 환율</p><input placeholder="환율" required name="exchangerate">
+        <p>한국은행기준금리</p><input placeholder="KOSPI" required name="bok">
+        <p>비트코인</p><input placeholder="BTC" required name="btc">
+        <br>
+        <input type="submit" value="Submit" name="확인" >
+        <!-- <button>submit</button> -->
+    </form>
+    <br>
+</body>
+</html>
