@@ -9,13 +9,27 @@
 <body>
     <h1>How much?</h1>
     <form action="{{url_for('predict.printresult')}}" method="POST">
-        <p>코스피</p><input type='text' placeholder="KOSPI" required name="kospi">
-        <p>코스닥</p><input placeholder="KODAQ" required name="kosdaq">
+        <p>KOSPI</p>
+        <input type="range" name="kospi" value="2700" min="1500" max="4000" step="1" oninput="this.nextElementSibling.value = this.value"> <output>2700</output><br>
+        <p>KOSDAQ</p>
+        <input type="range" name="kosdaq" value="800" min="300" max="2000" step="1" oninput="this.nextElementSibling.value = this.value"> <output>800</output><br>
+        <p>S&P500</p>
+        <input type="range" name="sp500" value="2700" min="2000" max="10000" step="10" oninput="this.nextElementSibling.value = this.value"> <output>2700</output><br>
+        <p>NASDAQ</p>
+        <input type="range" name="nasdaq" value="12000" min="5000" max="20000" step="10" oninput="this.nextElementSibling.value = this.value"> <output>12000</output><br>
+        <p>원/달러 환율</p>
+        <input type="range" name="exchangerate" value="1200" min="1000" max="2000" step="1" oninput="this.nextElementSibling.value = this.value"> <output>1200</output><br>
+        <p>한국은행 기준금리</p>
+        <input type="range" name="bok" value="1.5" min="0.5" max="2.0" step="0.05" oninput="this.nextElementSibling.value = this.value"> <output>1.5</output><br>
+        <!-- <input type="range" name="btc" value="2700" min="1500" max="3000" step="0.5" oninput="this.nextElementSibling.value = this.value"> <output>2700</output><br> -->
+        <!-- <p>코스피</p><input type='text' placeholder="KOSPI" required name="kospi"> -->
+        <!-- <p>코스닥</p><input placeholder="KODAQ" required name="kosdaq">
         <p>S&P500</p><input placeholder="S&P500" required name="sp500">
         <p>NASDAQ</p><input placeholder="NASDAQ" required name="nasdaq">
         <p>원/달러 환율</p><input placeholder="환율" required name="exchangerate">
-        <p>한국은행기준금리</p><input placeholder="KOSPI" required name="bok">
+        <p>한국은행기준금리</p><input placeholder="KOSPI" required name="bok"> -->
         <p>비트코인</p><input placeholder="BTC" required name="btc">
+        <br>
         <br>
         <input type="submit" value="Submit" name="확인" >
         <!-- <button>submit</button> -->

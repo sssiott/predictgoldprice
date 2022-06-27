@@ -37,7 +37,7 @@ ipywidgets==7.7.0
 itsdangerous==2.1.2
 jedi==0.18.1
 Jinja2==3.1.2
-joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1633637554808/work
+joblib==1.1.0
 jsonschema==4.6.0
 jupyter==1.0.0
 jupyter-client==7.3.4
@@ -46,7 +46,7 @@ jupyter-core==4.10.0
 jupyterlab-pygments==0.2.2
 jupyterlab-widgets==1.1.0
 kiwisolver==1.4.3
-lightgbm @ file:///Users/runner/miniforge3/conda-bld/lightgbm_1641600054035/work
+lightgbm==3.3.2
 llvmlite==0.38.1
 lxml==4.9.0
 Mako==1.2.0
@@ -105,7 +105,7 @@ SQLAlchemy==1.4.38
 stack-data==0.3.0
 tangled-up-in-unicode==0.2.0
 terminado==0.15.0
-threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1643647933166/work
+threadpoolctl==3.1.0
 tinycss2==1.1.1
 tornado==6.1
 tqdm==4.64.0
