@@ -2,7 +2,7 @@
 
 # directory
 sc3
- ┣ .ipynb_checkpoints
+ ┣ .ipynb_checkpoints\n
  ┣ __pycache__
  ┃ ┗ modul.cpython-39.pyc
  ┣ goldprice
